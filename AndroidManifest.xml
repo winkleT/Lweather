@@ -23,6 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name="com.lweather.app.service.AutoUpdateService"></service>
+        <receiver android:name="com.lweather.app.receiver.AutoUpdateReceiver"></receiver>
     </application>
 
 </manifest>
